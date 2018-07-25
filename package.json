@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kriswep/"
+    "url": "https://github.com/kriswep/ts-jest-sample"
   },
   "author": "Christoph Benjamin Weber",
   "license": "MIT",
