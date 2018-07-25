@@ -2,16 +2,18 @@
   "name": "ts-jest-sample",
   "version": "1.0.0",
   "description": "Small example using typescript with jest testing setup",
-  "main": " ",
-  "scripts": {
-    "test": "jest"
-  },
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/kriswep/"
   },
   "author": "Christoph Benjamin Weber",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist",
+    "test": "jest"
+  },
   "devDependencies": {
     "@types/jest": "^23.3.0",
     "jest": "^23.4.1",
